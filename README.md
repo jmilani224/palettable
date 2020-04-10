@@ -1,13 +1,13 @@
-# Creative Collection (CreaDev?)
+# pallette.dev
 ## Free Creative Assets and Tools for Developers
 
 ## Categories of Assets Featured:
-* Photos
-* Illustrations
-* Vector art
-* Fonts
-* Icons
-* CSS tools
+* Photos - Red (main-color: #BA7BA1)
+* Illustrations - Orange #ffaf65
+* Vector art - Yellow (accent-color: #FFFF7F)
+* Fonts - Green #39A386
+* Icons - Blue #30BCED
+* CSS tools - Purple (secondary-color: #52437B)
 
 ## Site Structure
 * Main page
@@ -48,4 +48,11 @@ Gradient:
 * background: linear-gradient(45.34deg, #119DA4 5.66%, #9BC7B2 31.53%, #FFE5BB 50.01%, #FFBE99 72.18%, #FF886A 94.35%);
 Font:
 * font-family: 'Avenir', 'Helvetica', sans-serif;
+* Cards: https://codepen.io/alvaromontoro/pen/ebPEWb
+  * Different background color for each category
+  * Toggles at the top that are the same color as the category
+
+AZAHAR: 264653 - 2A9D8F - E9C46A - E76F51 - CD8987 
+
+https://codepen.io/FlorinPop17/pen/MxPXOL - toggle switches
 
