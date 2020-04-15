@@ -1,0 +1,48 @@
+.container {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    margin: 5rem;
+    transition: ease all 0.2s;
+    border: solid 1px #ececec;
+    background-color: #fff;
+}
+
+.container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px -12px rgba(0,0,0,0.4);
+}
+
+.icon {
+    position: relative;
+    left: calc(50% - 20px);
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--font-category);
+}
+
+.title {
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.title h3 {
+    margin-top: 0;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0.03rem;
+    color: var(--font-category);
+}
+
+.desc p {
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 2rem;
+}

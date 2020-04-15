@@ -1,0 +1,130 @@
+[
+    {
+      "name": "Squoosh Image Compressor",
+      "category": "images",
+      "desc": "Decreases the size of images for fast loading",
+      "href": "https://squoosh.app/",
+      "img": "./images/images/images-sqoosh-min.png",
+      "alt": "Squoosh Image Compressor"
+    },
+    {
+      "name": "Kapwing",
+      "category": "images",
+      "desc": "'Kapwing is a modern editor for images, GIFs, and videos'",
+      "href": "https://www.kapwing.com/",
+      "img": "./images/images/images-kapwing-min.jpg",
+      "alt": "'Kapwing is a modern editor for images, GIFs, and videos'"
+    },
+    {
+      "name": "Unsplash",
+      "category": "images",
+      "desc": "Free images to use for your projects (my personal favorite)",
+      "href": "https://unsplash.com/",
+      "img": "./images/images/images-unsplash-min.jpg",
+      "alt": "Unsplash"
+    },
+    {
+      "name": "Image Color Picker",
+      "category": "images",
+      "desc": "Grab the color value out of an image",
+      "href": "https://image-color.com/",
+      "img": "./images/images/images-picker-min.png",
+      "alt": "Image Color Picker"
+    },
+    {
+      "name": "Hero Images",
+      "category": "images",
+      "desc": "Images.",
+      "href": "https://heroimages.com",
+      "img": "./images/images/images-hero-images-min.jpg",
+      "alt": "Hero Images"
+    },
+    {
+      "name": "Photopea",
+      "category": "images",
+      "desc": "In-browser Photoshop",
+      "href": "https://www.photopea.com/",
+      "img": "./images/images/images-photopea-min.jpg",
+      "alt": "Photopea"
+    },
+    {
+      "name": "Pexels",
+      "category": "images",
+      "desc": "Free photos to use for projects",
+      "href": "https://www.pexels.com/",
+      "img": "./images/images/images-pexels-min.jpg",
+      "alt": "Pexels"
+    },
+    {
+      "name": "Burst",
+      "category": "images",
+      "desc": "Free HQ photos to use",
+      "href": "https://burst.shopify.com/",
+      "img": "./images/images/images-burst-min.jpg",
+      "alt": "Burst"
+    },
+    {
+      "name": "Gradient Joy",
+      "category": "images",
+      "desc": "Beautiful gradients as placeholder images just for you",
+      "href": "https://gradientjoy.com/",
+      "img": "./images/images/images-gradientJoy-min.png",
+      "alt": "Gradient Joy"
+    },
+    {
+      "name": "Font Awesome",
+      "category": "images",
+      "desc": "Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit",
+      "href": "https://fontawesome.com/",
+      "img": "./images/images/images-fontAwesome-min.png",
+      "alt": "Font Awesome"
+    },
+    {
+      "name": "CSS Duotone Generator",
+      "category": "images",
+      "desc": "Duotone-ify your images! This site doesn't have a description so I'm winging this",
+      "href": "https://cssduotone.com/",
+      "img": "./images/images/images-duotoneGenerator-min.png",
+      "alt": "CSS Duotone Generator"
+    },
+    {
+      "name": "Undraw",
+      "category": "images",
+      "desc": "Seriously the best damn  illustrations I've found - all free too and updated frequently",
+      "href": "https://undraw.co/illustrations",
+      "img": "./images/images/images-undraw-min.png",
+      "alt": "Undraw"
+    },
+    {
+      "name": "Humaaans Illustrations",
+      "category": "images",
+      "desc": "Probably should've added this before hyping up Undraw, but here you go anyway",
+      "href": "https://www.humaaans.com/",
+      "img": "./images/images/images-humans-min.png",
+      "alt": "Humaaans Illustrations"
+    },
+    {
+      "name": "Pixel Mob",
+      "category": "images",
+      "desc": "Search for free images from around the web",
+      "href": "https://pixelmob.co/",
+      "img": "./images/images/images-pixelMob-min.jpg",
+      "alt": "Pixel Mob"
+    },
+    {
+      "name": "Free Web Illustrations",
+      "category": "images",
+      "desc": "Search for free images from around the web",
+      "href": "https://freewebillustrations.com",
+      "img": "./images/images/images-freewebillustrations-min.jpg",
+      "alt": "Free Web Illustrations"
+    },
+    {
+      "name": "Logo Taco",
+      "category": "images",
+      "desc": "'Free logo design downloads for startups, side hustlers & bootstrapped entrepreneurs'",
+      "href": "https://www.logotaco.com",
+      "img": "./images/images/images-logotaco-min.jpg",
+      "alt": "Logo Taco"
+    }
+  ]

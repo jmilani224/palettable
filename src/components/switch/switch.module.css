@@ -26,7 +26,7 @@
 .checkbox-container {
 	display: flex;
     position: relative;
-    padding-right: 1rem;
+	padding-right: 1rem;
 }
 
 .checkbox-container label {
@@ -39,6 +39,7 @@
 	width: 45px;
 	height: 25px;
 	z-index: 2;
+	cursor: pointer;
 }
 
 .checkbox-container label::after {
@@ -46,8 +47,8 @@
 	background-color: var(--background-color);
 	border-radius: 50%;
 	position: absolute;
-	top: 2px;
-	left: 1px;
+	top: 2.5px;
+	left: 3px;
 	transform: translateX(0);
 	transition: transform 0.2s linear;
 	width: 20px;
@@ -66,7 +67,7 @@
 }
 
 .checkbox-container input:checked + label::after {
-	transform: translateX(calc(100% + 0.5px));
+	transform: translateX(calc(100%));
 }
 
 .active-circle {

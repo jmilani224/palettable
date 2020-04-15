@@ -55,4 +55,5 @@ Font:
 AZAHAR: 264653 - 2A9D8F - E9C46A - E76F51 - CD8987 
 
 https://codepen.io/FlorinPop17/pen/MxPXOL - toggle switches
+https://www.aboutmonica.com/blog/create-gatsby-blog-search-tutorial - Search
 
