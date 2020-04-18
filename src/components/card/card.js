@@ -2,15 +2,17 @@ import React from 'react'
 
 import cardStyles from './card.module.css'
 
-const Card = () => {
+const Card = ({ title, desc, children }) => {
     return (
         <div className={cardStyles.container}>
-            <div className={cardStyles.icon}>O</div>
             <div className={cardStyles.title}>
-                <h3>Google Fonts</h3>
+                <h3>{title}</h3>
             </div>
             <div className={cardStyles.desc}>
-                <p>Hundreds of free fonts, hosted by Google.</p>
+                <p>{desc}</p>
+            </div>
+            <div className={cardStyles.iconContainer}>
+                {children}
             </div>
         </div>
     )

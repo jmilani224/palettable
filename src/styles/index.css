@@ -35,3 +35,7 @@ h2 {
     margin: 0.5rem;
     color: var(--main-color)
 }
+
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
