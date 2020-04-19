@@ -7,7 +7,7 @@ import Icon from '../icon/icon.js'
 import cardContainerStyles from './cardContainer.module.css'
 
 
-const CardContainer = () => {
+const CardContainer = ({ photos, illustrations, vectors, fonts, icons, tools}) => {
     
   const data = useStaticQuery(graphql`
     {
@@ -24,20 +24,26 @@ const CardContainer = () => {
       }
     }
   `)
-
+  let show;
   const parsed = data.allCardDataJson.edges
     return (
         <div className={cardContainerStyles.container}>
-            {parsed.map(card => (
+            {parsed.map(card => 
+            (
               <div className={cardContainerStyles.linkContainer}>
                 <a target="blank" href={card.node.href}>
-                  <Card title={card.node.name} desc={card.node.desc}>
-                    {card.node.categories.map(category => (
-                        <Icon category={category}/>
-                    ))}
+                  <Card
+                    title={card.node.name}
+                    desc={card.node.desc}
+                    photos={photos}
+                    categories={card.node.categories}
+                  >
+                      {card.node.categories.map(category => (
+                          <Icon category={category}/>
+                      ))}
                   </Card>
                 </a>
-              </div>  
+              </div>
             ))}
             
         </div>

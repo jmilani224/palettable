@@ -22,5 +22,60 @@
       "categories": ["tools"],
       "desc": "Powerful UI design and prototyping for individuals and teams.",
       "href": "https://www.figma.com/"
+    },
+    {
+      "name": "Colors & Fonts",
+      "categories": ["fonts"],
+      "desc": "A curated library of colors, fonts and resources for web developers & digital designers.",
+      "href": "https://www.colorsandfonts.com/"
+    },
+    {
+      "name": "Vecteezy",
+      "categories": ["vectors"],
+      "desc": "High quality vector graphics with worry-free licensing for personal and commercial use.",
+      "href": "https://www.vecteezy.com/"
+    },
+    {
+      "name": "Undraw",
+      "categories": ["illustrations"],
+      "desc": "Open-source illustrations for any idea you can imagine and create.",
+      "href": "https://undraw.co/"
+    },
+    {
+      "name": "Humaaans",
+      "categories": ["illustrations"],
+      "desc": "Mix-&-match illustrations of people with a design library.",
+      "href": "https://www.humaaans.com/"
+    },
+    {
+      "name": "Magdeleine",
+      "categories": ["photos"],
+      "desc": "A free, high-resolution photo every day.",
+      "href": "https://magdeleine.co/"
+    },
+    {
+      "name": "Unsplash",
+      "categories": ["photos"],
+      "desc": "The internet’s source of freely usable images.",
+      "href": "https://unsplash.com/"
+    },
+    {
+      "name": "Pixabay",
+      "categories": ["photos"],
+      "desc": "Stunning free images & royalty free stock.",
+      "href": "https://pixabay.com/"
+    },
+    {
+      "name": "Bytesize Icons",
+      "categories": ["icons"],
+      "desc": "A tiny style-controlled SVG iconset.",
+      "href": "https://github.com/danklammer/bytesize-icons"
+    },
+    {
+      "name": "Font Awesome",
+      "categories": ["icons"],
+      "desc": "Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit",
+      "href": "https://fontawesome.com/"
     }
+
   ]
