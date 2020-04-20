@@ -1,25 +1,47 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import cardStyles from './card.module.css'
 
-const Card = ({ title, desc, photos, categories, children }) => {
+const Card = ({ title, desc, href, photos, illustrations, vectors, fonts, icons, tools, categories, children }) => {
+
+    const [show, setShow] = useState(false)
+
+    const showHandler = () => {
+        if (photos && categories.includes("photos")) {
+            setShow(true)
+        } else if (illustrations && categories.includes("illustrations")) {
+            setShow(true)
+        } else if (vectors && categories.includes("vectors")) {
+            setShow(true)
+        } else if (fonts && categories.includes("fonts")) {
+            setShow(true)
+        } else if (icons && categories.includes("icons")) {
+            setShow(true)
+        } else if (tools && categories.includes("tools")) {
+            setShow(true)
+        } else {
+            setShow(false)
+        }
+    }
 
     useEffect(() => {
-        photos && categories.includes("photos") ? cardStyles.container : cardStyles.containerHide
-    }, [photos])
+        showHandler()
+    }, [photos, illustrations, vectors, fonts, icons, tools])
 
     return (
-        <div className={photos && categories.includes("photos") ? cardStyles.container : cardStyles.containerHide}>
-            <div className={cardStyles.title}>
-                <h3>{title}</h3>
+        <a target="blank" href={href}>
+            <div className={show ? cardStyles.container : cardStyles.containerHide}>
+                <div className={cardStyles.title}>
+                    <h3>{title}</h3>
+                </div>
+                <div className={cardStyles.desc}>
+                    <p>{desc}</p>
+                </div>
+                <div className={cardStyles.iconContainer}>
+                    {children}
+                </div>
             </div>
-            <div className={cardStyles.desc}>
-                <p>{desc}</p>
-            </div>
-            <div className={cardStyles.iconContainer}>
-                {children}
-            </div>
-        </div>
+        </a>
     )
 }
 

@@ -11,10 +11,12 @@
     justify-content: space-around;
     flex-direction: column;
     padding: 1rem 0 1rem 0;
+    margin: 1rem;
 }
 
 .container-hide {
     display: none;
+    transition: ease all 1s;
 }
 
 .container:hover {

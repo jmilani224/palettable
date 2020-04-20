@@ -74,8 +74,20 @@
     {
       "name": "Font Awesome",
       "categories": ["icons"],
-      "desc": "Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit",
+      "desc": "Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.",
       "href": "https://fontawesome.com/"
+    },
+    {
+      "name": "Pexels",
+      "categories": ["photos"],
+      "desc": "The best free stock photos & videos shared by talented creators.",
+      "href": "https://www.pexels.com/"
+    },
+    {
+      "name": "Flat Icon",
+      "categories": ["icons"],
+      "desc": "The largest database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.",
+      "href": "https://www.flaticon.com/"
     }
 
   ]

@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Switch from '../switch/switch.js'
 
 import switchesStyles from './switches.module.css'
 
-const AllSwitches = ({ handlePhotos, handleIllustrations, handleVectors, handleFonts, handleIcons, handleTools }) => {
+const AllSwitches = ({ handleAll, handlePhotos, handleIllustrations, handleVectors, handleFonts, handleIcons, handleTools, all, photos, illustrations, vectors, fonts, icons, tools }) => {
+
+useEffect(() => {
+
+}, [all, photos, illustrations, vectors, fonts, icons, tools])
 
     return (
         <div className={switchesStyles.container}>
-            <Switch label="Photos" color="var(--photo-category)" func={handlePhotos}/>
-            <Switch label="Illustrations" color="var(--illustration-category)" func={handleIllustrations}/>
-            <Switch label="Vectors" color="var(--vector-category)" func={handleVectors}/>
-            <Switch label="Fonts" color="var(--font-category)" func={handleFonts}/>
-            <Switch label="Icons" color="var(--icon-category)" func={handleIcons}/>
-            <Switch label="Tools" color="var(--tool-category)" func={handleTools}/>
+            <Switch label="All" color="#dedddd" checked={all} func={handleAll}/>
+            <Switch label="Photos" color="var(--photo-category)" checked={photos} func={handlePhotos}/>
+            <Switch label="Illustrations" color="var(--illustration-category)" checked={illustrations} func={handleIllustrations}/>
+            <Switch label="Vectors" color="var(--vector-category)" checked={vectors} func={handleVectors}/>
+            <Switch label="Fonts" color="var(--font-category)" checked={fonts} func={handleFonts}/>
+            <Switch label="Icons" color="var(--icon-category)" checked={icons} func={handleIcons}/>
+            <Switch label="Tools" color="var(--tool-category)" checked={tools} func={handleTools}/>
         </div>
     )
 }

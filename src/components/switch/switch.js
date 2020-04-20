@@ -2,7 +2,7 @@ import React from 'react'
 
 import switchStyles from './switch.module.css'
 
-const Switch = ({ label, color, func }) => {
+const Switch = ({ label, color, func, checked }) => {
 
     const style = { "--cat-color": color }
 
@@ -10,7 +10,7 @@ const Switch = ({ label, color, func }) => {
         <div className={switchStyles.container} style={style}>
                 <h3>{label}</h3>
                 <div className={`${switchStyles.checkboxContainer} ${switchStyles.color}`}>
-                    <input type="checkbox" defaultChecked="true" id={label} onClick={() => func()}/>
+                    <input type="checkbox" id={label} checked={checked} onClick={() => func()}/>
                     <label for={label}></label>
                     <div className={switchStyles.activeCircle}></div>
             </div>
