@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 
 import Card from '../card/card.js'
@@ -8,7 +8,16 @@ import cardContainerStyles from './cardContainer.module.css'
 
 
 const CardContainer = ({ photos, illustrations, vectors, fonts, icons, tools}) => {
-    
+  const [allOff, setAllOff] = useState(false)
+
+  useEffect(() => {
+    if (photos || illustrations || vectors || fonts || icons || tools) {
+        setAllOff(false)
+    } else {
+        setAllOff(true)
+    }
+}, [photos, illustrations, vectors, fonts, icons, tools])
+  
   const data = useStaticQuery(graphql`
     {
       allCardDataJson {
@@ -49,7 +58,7 @@ const CardContainer = ({ photos, illustrations, vectors, fonts, icons, tools}) =
                   </Card>
               </div>
             ))}
-            
+            <div className={allOff ? cardContainerStyles.noResultsShow : cardContainerStyles.noResultsHide}>Flip a Switch :)</div>
         </div>
     )
 }

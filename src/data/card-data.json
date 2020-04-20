@@ -88,6 +88,12 @@
       "categories": ["icons"],
       "desc": "The largest database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.",
       "href": "https://www.flaticon.com/"
+    },
+    {
+      "name": "Burst",
+      "categories": ["photos"],
+      "desc": "Free stock photos for websites and commercial use.",
+      "href": "https://burst.shopify.com/"
     }
 
   ]

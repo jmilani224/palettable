@@ -1,8 +1,22 @@
 .container {
-    min-height: 80vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 0 2rem;
+}
+
+.no-results-show {
+    display: block;
+    margin-top: 4rem;
+    font-size: 3rem;
+    background-color: #cfcfcf;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    background-clip: text;
+}
+
+.no-results-hide {
+    display: none;
 }
