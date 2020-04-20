@@ -4,11 +4,18 @@ import Switch from '../switch/switch.js'
 
 import switchesStyles from './switches.module.css'
 
-const AllSwitches = ({ handleAll, handlePhotos, handleIllustrations, handleVectors, handleFonts, handleIcons, handleTools, all, photos, illustrations, vectors, fonts, icons, tools }) => {
+const AllSwitches = ({ setAll, handleAll, handlePhotos, handleIllustrations, handleVectors, handleFonts, handleIcons, handleTools, all, photos, illustrations, vectors, fonts, icons, tools }) => {
 
-useEffect(() => {
+    
+    useEffect(() => {
+        if (photos && illustrations && vectors && fonts && icons && tools) {
+            setAll(true)
+        }
+        if (!photos && !illustrations && !vectors && !fonts && !icons && !tools) {
+            setAll(false)
+        }
+    }, [photos, illustrations, vectors, fonts, icons, tools])
 
-}, [all, photos, illustrations, vectors, fonts, icons, tools])
 
     return (
         <div className={switchesStyles.container}>

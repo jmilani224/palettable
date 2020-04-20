@@ -83,6 +83,8 @@ import CardContainer from '../components/cardContainer/cardContainer.js'
         fonts={fonts}
         icons={icons}
         tools={tools}
+        
+        setAll={setAll}
       />
 
       <CardContainer 
