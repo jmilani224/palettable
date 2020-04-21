@@ -1,5 +1,4 @@
 .container {
-    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -9,7 +8,7 @@
 
 .no-results-show {
     display: block;
-    margin-top: 4rem;
+    margin: 4rem 0 6rem 0;
     font-size: 3rem;
     background-color: #cfcfcf;
     color: transparent;

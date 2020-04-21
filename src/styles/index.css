@@ -22,6 +22,10 @@ html {
     color: var(--main-text-color);
 }
 
+body {
+    margin: 0;
+}
+
 h1 {
     font-weight: 600;
     font-size: 4rem;

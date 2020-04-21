@@ -20,7 +20,7 @@
     margin: 1.1rem;
     font-size: 1.2rem;
     color: var(--main-color);
-    transition: all ease 0.3s;
+    transition: all ease 200ms;
 }
 
 .container a, .container a:hover, .container li:hover {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Book, Settings, Camera, Compose, Heart, Info } from 'react-bytesize-icons';
+import { Book, Settings, Camera, Compose, Heart, Info } from 'react-bytesize-icons'
 
 import iconStyles from './icon.module.css'    
 

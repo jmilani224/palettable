@@ -37,13 +37,13 @@
     },
     {
       "name": "Undraw",
-      "categories": ["illustrations"],
+      "categories": ["illustrations", "vectors"],
       "desc": "Open-source illustrations for any idea you can imagine and create.",
       "href": "https://undraw.co/"
     },
     {
       "name": "Humaaans",
-      "categories": ["illustrations"],
+      "categories": ["illustrations", "vectors"],
       "desc": "Mix-&-match illustrations of people with a design library.",
       "href": "https://www.humaaans.com/"
     },
@@ -67,13 +67,13 @@
     },
     {
       "name": "Bytesize Icons",
-      "categories": ["icons"],
+      "categories": ["icons", "vectors"],
       "desc": "A tiny style-controlled SVG iconset.",
       "href": "https://github.com/danklammer/bytesize-icons"
     },
     {
       "name": "Font Awesome",
-      "categories": ["icons"],
+      "categories": ["icons", "vectors"],
       "desc": "Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.",
       "href": "https://fontawesome.com/"
     },
@@ -85,7 +85,7 @@
     },
     {
       "name": "Flat Icon",
-      "categories": ["icons"],
+      "categories": ["icons", "vectors"],
       "desc": "The largest database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.",
       "href": "https://www.flaticon.com/"
     },
@@ -94,6 +94,12 @@
       "categories": ["photos"],
       "desc": "Free stock photos for websites and commercial use.",
       "href": "https://burst.shopify.com/"
+    },
+    {
+      "name": "DrawKit",
+      "categories": ["illustrations", "vectors"],
+      "desc": "Hand-drawn vector illustration resources for your next project.",
+      "href": "https://www.drawkit.io/free"
     }
 
   ]
