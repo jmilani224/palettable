@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `react-transition-group`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

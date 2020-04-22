@@ -3,7 +3,7 @@
     height: calc(225px - 2rem);
     border-radius: 10px;
     box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
-    transition: ease all 0.2s;
+    transition: ease all 200ms;
     border: solid 1px #ececec;
     background-color: #fff;
     display: flex;
@@ -12,11 +12,11 @@
     flex-direction: column;
     padding: 1rem 0 1rem 0;
     margin: 1rem;
+    overflow: hidden;
 }
 
 .container-hide {
     display: none;
-    transition: ease all 1s;
 }
 
 .container:hover {

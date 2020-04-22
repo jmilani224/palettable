@@ -4,8 +4,8 @@ import { GitHub } from 'react-bytesize-icons'
 import footerStyles from './footer.module.css'
 
  const Footer = () => {
-    var d = new Date();
-    var n = d.getFullYear();
+    const d = new Date();
+    const n = d.getFullYear();
     
     return (
         <div className={footerStyles.container}>
