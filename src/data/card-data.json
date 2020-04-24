@@ -124,12 +124,29 @@
       "categories": ["illustrations"],
       "desc": "Discover 1,500+ Free High-Quality Web Illustrations.",
       "href": "https://freewebillustrations.com/"
-    }
-    ,
+    },
     {
       "name": "Ouch!",
       "categories": ["illustrations", "vectors"],
       "desc": "Free Vector Illustrations to Class up Your Project.",
       "href": "https://icons8.com/ouch/"
+    },
+    {
+      "name": "Neumorphism.io",
+      "categories": ["tools"],
+      "desc": "Generate Soft-UI CSS code.",
+      "href": "https://neumorphism.io/"
+    },
+    {
+      "name": "CSS Grid Generator",
+      "categories": ["tools"],
+      "desc": "Quickly design and build css grid layouts.",
+      "href": "https://cssgrid-generator.netlify.app/"
+    },
+    {
+      "name": "CSS Gradient",
+      "categories": ["tools"],
+      "desc": "CSS gradient generator.",
+      "href": "https://cssgradient.io/"
     }
   ]
