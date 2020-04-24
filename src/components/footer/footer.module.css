@@ -13,7 +13,7 @@
 }
 
 .container a,
-.container a:active {
+.container a:active, .container a:visited {
     text-decoration: none;
     color: #fff;
     display: block;

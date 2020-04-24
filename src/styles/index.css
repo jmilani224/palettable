@@ -52,9 +52,13 @@ h2 {
 }
 
 a,
-a:hover,
 a:visited,
 a:active {
     text-decoration: none;
+    color: var(--main-color);
+}
+
+a:hover {
+    color: var(--secondary-color)
 }
 
