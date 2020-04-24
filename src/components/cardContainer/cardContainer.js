@@ -20,7 +20,7 @@ const CardContainer = ({ photos, illustrations, vectors, fonts, icons, tools}) =
   
   const data = useStaticQuery(graphql`
     {
-      allCardDataJson {
+      allCardDataJson (sort: {fields: name, order: ASC}){
         edges {
           node {
             name

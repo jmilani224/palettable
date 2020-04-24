@@ -1,6 +1,6 @@
 .container {
     width: 300px;
-    height: calc(225px - 2rem);
+    height: calc(200px);
     border-radius: 10px;
     box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
     transition: ease all 0.2s;
