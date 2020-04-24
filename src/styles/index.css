@@ -1,29 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
-
 :root {
---background-color: rgba(250, 250, 250, 1.0);
---main-text-color: #3e3e3e;
---sec-text-color: #777676;
---main-color: #BA7BA1;
---secondary-color: #52437B;
---accent-color: #fdef96;
-
---photo-category: var(--main-color);
---illustration-category: #ffaf65;
---vector-category: var(--accent-color);
---font-category: rgb(129, 180, 167);
---icon-category: #A9DFF2;
---tool-category: rgb(164, 143, 221);;
+    --background-color: rgba(250, 250, 250, 1.0);
+    --main-text-color: #3e3e3e;
+    --sec-text-color: #777676;
+    --main-color: #BA7BA1;
+    --secondary-color: #52437B;
+    --accent-color: #fdef96;
+    --photo-category: var(--main-color);
+    --illustration-category: #ffaf65;
+    --vector-category: var(--accent-color);
+    --font-category: rgb(129, 180, 167);
+    --icon-category: #A9DFF2;
+    --tool-category: rgb(164, 143, 221);
+    ;
 }
 
 html {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--main-text-color);
+    height: 100%;
 }
 
 body {
     margin: 0;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 h1 {
@@ -41,6 +51,9 @@ h2 {
     color: var(--main-color)
 }
 
-a, a:hover, a:visited, a:active {
+a,
+a:hover,
+a:visited,
+a:active {
     text-decoration: none;
 }

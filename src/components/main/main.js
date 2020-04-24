@@ -6,7 +6,8 @@ const Main = () => {
 
     return (
         <div className={mainStyles.container}>
-            <span role="img" aria-label='Pallette Emoji' className={mainStyles.emoji}>🎨</span>
+            <img src="https://twemoji.maxcdn.com/2/svg/1f3a8.svg" className={mainStyles.emoji} alt=""/>
+            {/* <span role="img" aria-label='Pallette Emoji' className={mainStyles.emoji}>🎨</span> */}
             <h1>Palettable</h1>
             <h2>Free Creative Assets and Tools for Developers</h2>
         </div>

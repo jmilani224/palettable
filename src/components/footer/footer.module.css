@@ -1,19 +1,19 @@
 .container {
-    width:100vw;
+    width: 100vw;
     height: auto;
     background-color: var(--main-color);
     color: #fff;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     flex-direction: column;
-    padding-left: 2rem;
     padding-top: 1rem;
     margin-top: 2rem;
 }
 
-.container a, .container a:active {
+.container a,
+.container a:active {
     text-decoration: none;
     color: #fff;
     display: block;
