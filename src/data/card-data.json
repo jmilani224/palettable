@@ -100,6 +100,36 @@
       "categories": ["illustrations", "vectors"],
       "desc": "Hand-drawn vector illustration resources for your next project.",
       "href": "https://www.drawkit.io/free"
+    },
+    {
+      "name": "EXTRA.CSS",
+      "categories": ["tools"],
+      "desc": "A CSS Houdini library for making your site a little more #extra.",
+      "href": "https://extra-css.netlify.app/"
+    },
+    {
+      "name": "Landing Stock",
+      "categories": ["photos"],
+      "desc": "A collection of free images for landing pages.",
+      "href": "https://landingstock.com/"
+    },
+    {
+      "name": "pixel mob",
+      "categories": ["fonts"],
+      "desc": "Find, Sort And Save Photos From Multiple Sources Across The Web.",
+      "href": "https://pixelmob.co/"
+    },
+    {
+      "name": "Free Web Illustrations",
+      "categories": ["illustrations"],
+      "desc": "Discover 1,500+ Free High-Quality Web Illustrations.",
+      "href": "https://freewebillustrations.com/"
     }
-
+    ,
+    {
+      "name": "Ouch!",
+      "categories": ["illustrations", "vectors"],
+      "desc": "Free Vector Illustrations to Class up Your Project.",
+      "href": "https://icons8.com/ouch/"
+    }
   ]
