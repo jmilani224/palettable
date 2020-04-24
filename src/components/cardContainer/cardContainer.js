@@ -26,7 +26,6 @@ const CardContainer = ({ photos, illustrations, vectors, fonts, icons, tools}) =
             name
             desc
             href
-            id
             categories
           }
         }
@@ -43,14 +42,14 @@ const CardContainer = ({ photos, illustrations, vectors, fonts, icons, tools}) =
                   <Card
                     title={card.node.name}
                     desc={card.node.desc}
+                    categories={card.node.categories}
+                    href={card.node.href}
                     photos={photos}
                     illustrations={illustrations}
                     vectors={vectors}
                     fonts={fonts}
                     icons={icons}
                     tools={tools}
-                    categories={card.node.categories}
-                    href={card.node.href}
                   >
                       {card.node.categories.map(category => (
                           <Icon category={category}/>

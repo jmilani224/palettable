@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.container h2 {
+    color: var(--main-text-color);
+}
+
+.container p {
+    width: 60vw;
+    text-align: center;
+    line-height: 1.5rem;
+}

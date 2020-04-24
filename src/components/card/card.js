@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import cardStyles from './card.module.css'
 
-const Card = ({ title, desc, href, photos, illustrations, vectors, fonts, icons, tools, categories, children }) => {
+const Card = ({ title, desc, href, categories, photos, illustrations, vectors, fonts, icons, tools, children }) => {
 
     const [show, setShow] = useState(false)
 

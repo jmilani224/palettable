@@ -11,7 +11,7 @@ import footerStyles from './footer.module.css'
         <footer className={footerStyles.container}>
             <Link to='/'><li>Resources</li></Link>
             <Link to='/support'><li>Support</li></Link>
-            <Link to=''><li>Contribute</li></Link>
+            <Link to='/contribute'><li>Contribute</li></Link>
             <a href="https://github.com/jmilani224/palettable" target="blank">
                 <GitHub />
             </a>
