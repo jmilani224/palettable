@@ -31,3 +31,10 @@
     color: var(--secondary-color);
     transition: all ease 0.3s;
 }
+
+@media only screen and (max-width: 700px) {
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+  }

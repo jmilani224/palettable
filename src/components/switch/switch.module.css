@@ -86,3 +86,19 @@
 .checkbox-container.color input:checked + label {
 	background-color: var(--cat-color);
 }
+
+@media only screen and (max-width: 700px) {
+    .container {
+		border-radius: 0;
+		width: 100vw;
+		margin: 0.1rem 0;
+	}
+	.active-circle {
+		width: 100vw;
+		height: 100vw;
+	}
+
+	.container h3 {
+		font-size: 1.4rem;
+	}
+  }
