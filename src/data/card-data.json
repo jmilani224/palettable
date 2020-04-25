@@ -148,5 +148,11 @@
       "categories": ["tools"],
       "desc": "CSS gradient generator.",
       "href": "https://cssgradient.io/"
+    },
+    {
+      "name": "CSS.gg",
+      "categories": ["icons"],
+      "desc": "Open-source CSS, SVG and Figma UI Icons Available in SVG Sprite, styled-components, NPM & API",
+      "href": "https://css.gg/"
     }
   ]
