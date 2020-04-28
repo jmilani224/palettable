@@ -160,5 +160,11 @@
       "categories": ["tools"],
       "desc": "Make custom sections separators.",
       "href": "https://wweb.dev/resources/css-separator-generator"
+    },
+    {
+      "name": "Sheet.Best",
+      "categories": ["tools"],
+      "desc": "Turn your google spreadsheets into JSON APIs.",
+      "href": "https://sheet.best/"
     }
   ]
