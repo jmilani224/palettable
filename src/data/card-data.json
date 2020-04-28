@@ -172,5 +172,11 @@
       "categories": ["tools"],
       "desc": "CSS UI animations.",
       "href": "https://emilkowalski.github.io/css-effects-snippets/"
+    },
+    {
+      "name": "CSS Clip-Path Maker",
+      "categories": ["tools"],
+      "desc": "Make complex shapes by clipping an element to a basic shape or to an SVG source.",
+      "href": "https://bennettfeely.com/clippy/"
     }
   ]
