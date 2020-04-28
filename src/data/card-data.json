@@ -166,5 +166,11 @@
       "categories": ["tools"],
       "desc": "Turn your google spreadsheets into JSON APIs.",
       "href": "https://sheet.best/"
+    },
+    {
+      "name": "CSS Effect Snippets",
+      "categories": ["tools"],
+      "desc": "CSS UI animations.",
+      "href": "https://emilkowalski.github.io/css-effects-snippets/"
     }
   ]
