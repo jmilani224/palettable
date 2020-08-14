@@ -178,5 +178,23 @@
       "categories": ["tools"],
       "desc": "Make complex shapes by clipping an element to a basic shape or to an SVG source.",
       "href": "https://bennettfeely.com/clippy/"
+    },
+    {
+      "name": "Tabler Icons",
+      "categories": ["icons"],
+      "desc": "558 Fully customizable free SVG icons. (MIT license)",
+      "href": "https://tablericons.com"
+    },
+    {
+      "name": "Feather Icons",
+      "categories": ["icons"],
+      "desc": "Simply beautiful open source icons",
+      "href": "https://feathericons.com"
+    },
+    {
+      "name": "IcoMoon",
+      "categories": ["icons"],
+      "desc": "Pixel Perfect Icon Solutions",
+      "href": "https://icomoon.io"
     }
   ]
