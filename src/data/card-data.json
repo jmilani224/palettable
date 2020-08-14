@@ -1,5 +1,11 @@
 [
     {
+      "name": "ShadeSwash",
+      "categories": ["tools"],
+      "desc": "Quickly generate shades of any color.",
+      "href": "https://shadeswash.netlify.app/"
+    },
+    {
       "name": "Squoosh Image Compressor",
       "categories": ["tools"],
       "desc": "Decrease the size of images for fast loading.",
