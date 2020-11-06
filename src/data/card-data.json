@@ -202,5 +202,11 @@
       "categories": ["icons"],
       "desc": "Pixel Perfect Icon Solutions",
       "href": "https://icomoon.io"
+    },
+    {
+      "name": "SVG Path Editor",
+      "categories": ["tools"],
+      "desc": "Online editor to create and manipulate SVG paths",
+      "href": "https://yqnn.github.io/svg-path-editor/"
     }
   ]
